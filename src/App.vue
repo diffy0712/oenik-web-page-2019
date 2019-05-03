@@ -18,8 +18,9 @@
 </script>
 
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css?family=Anton');
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Anton', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
