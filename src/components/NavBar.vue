@@ -1,7 +1,6 @@
 <template lang="pug">
     div
-        b-navbar(toggleable='lg' type='light' variant='transparent')
-            b-navbar-toggle(target='nav-collapse')
+        b-navbar.py-4(toggleable='lg' type='light' variant='transparent')
             b-collapse#nav-collapse(is-nav='')
                 b-container
                     b-row
@@ -14,18 +13,23 @@
                                 b-nav-item(href='#')
                                     font-awesome-icon(:icon="['fab', 'twitter']",  class="icon alt")
                         b-col
-                            b-navbar-brand.ml-auto(href='#') MITRAVEL
+                            b-navbar-brand.ml-auto.font-weight-bold(href='#') MITRAVEL
                         b-col
                             b-navbar-nav.ml-auto(align='right')
                                 b-nav-item(href='#')
-                                    | About Me
+                                    | ABOUT ME
                                 b-nav-item(href='#')
-                                    | Blog
+                                    | BLOG
 
 </template>
 
 <script lang="ts">
+    import { Component, Prop, Vue } from 'vue-property-decorator';
 
+    @Component
+    export default class NavBar extends Vue {
+        @Prop() private msg!: string;
+    }
 </script>
 
 <style scoped lang="scss">
