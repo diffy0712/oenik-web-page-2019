@@ -1,7 +1,7 @@
 Writer's Home
 ===
-# Table Of Contents  
-  
+
+**Table Of Contents**  
 [TOC]
 
 ### About the Project
