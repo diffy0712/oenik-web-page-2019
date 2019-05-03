@@ -9,7 +9,7 @@
                         <b-row>
                             <b-col >
                                 <b-navbar-nav>
-                                    <b-nav-item href="#">Link</b-nav-item>
+                                    <b-nav-item href="#"><font-awesome-icon icon="user-secret"></font-awesome-icon></b-nav-item>
                                     <b-nav-item href="#" disabled>Disabled</b-nav-item>
                                 </b-navbar-nav>
                             </b-col>
