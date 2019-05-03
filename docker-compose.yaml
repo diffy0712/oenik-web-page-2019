@@ -1,0 +1,11 @@
+version: '3'
+services:
+  frontend:
+    build:
+      context: ./
+    container_name: oenik_webpage_2019_1_ep7d0o_ui_server
+    working_dir: /app
+    ports:
+      - "2222:80"
+    volumes:
+      - "./:/app"
