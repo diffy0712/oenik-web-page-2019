@@ -17,7 +17,7 @@ Writer's Home is intended to be a frontend design with content fetched as json f
    - [Blog Components](https://dribbble.com/shots/6106369-Mi-Travel-Blog-Style-2-Free-Download/attachments/1309975)
    - [Other Blog Components](https://dribbble.com/shots/6408939-Mass-Stories-Fashion-Sketch-Template)
 
-## Project setup
+## Project setup with npm
 ```
 npm install
 ```
@@ -54,3 +54,24 @@ npm run test:unit
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Project setup with docker
+
+First we need to build the.
+```bash
+$ sudo docker-compose build
+```
+then we can simply run our containers.
+```bash
+$ sudo docker-compose up
+```
+Now, we can access the project on http://localhost:2222 .
+
+**NOTE:** No need for npm install since the dockerfile takes care of that too.
+
+### Accessing container bash to use npm.
+```bash
+$ sudo docker exec -i -t oenik_webpage_2019_1_ep7d0o_ui_server bash
+```
+**NOTE:** This is not tested yet. might need to configure docker a bit if not working.
+**NOTE:** You can still use local npm on the project since the whole folder is used by docker as volume to work with.
