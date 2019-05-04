@@ -76,3 +76,12 @@ $ sudo docker exec -i -t oenik_webpage_2019_1_ep7d0o_ui_server bash
 ```
 **NOTE:** This is not tested yet. might need to configure docker a bit if not working.
 **NOTE:** You can still use local npm on the project since the whole folder is used by docker as volume to work with.
+
+## Screenshots
+
+### Homepage
+![Homepage](./screenshots/homepage.png "Homepage")
+### About
+![About](./screenshots/about.png "About")
+### Blog
+![Blog](./screenshots/blog.png "Blog")
