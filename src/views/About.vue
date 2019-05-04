@@ -1,15 +1,15 @@
 <template lang="pug">
   #about
     b-container.h-100
-      b-row(align-v="center")
+      b-row(align-v="center").h-100
         b-col(cols="6").text-left
-          h1.mt-4.mb-4 About
+          h1.mt-4.mb-1.font-weight-bold About
           p.text-muted
             | Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
             | Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
           p.text-muted
             | Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-          h2.mt-4.mb-4 Contacts
+          h2.mt-4.mb-4.font-weight-bold Contacts
           b-row(align-v="center")
             b-col(cols="6")
               p.text-muted
@@ -58,8 +58,7 @@
 </script>
 <style scoped lang="scss">
   #about{
-    margin-top: 5rem;
-    margin-bottom: 10rem;
+    height: calc(100vh - 83px);
     .about-image-overlapped{
       position: absolute;
       bottom: -50px;

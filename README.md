@@ -16,6 +16,7 @@ Writer's Home is intended to be a frontend design with content fetched as json f
    - [Landing Page](https://dribbble.com/shots/6146897-Mi-Travel-CTA-Free-Download/attachments)
    - [Blog Components](https://dribbble.com/shots/6106369-Mi-Travel-Blog-Style-2-Free-Download/attachments/1309975)
    - [Other Blog Components](https://dribbble.com/shots/6408939-Mass-Stories-Fashion-Sketch-Template)
+   - [Other Other Blog Components](https://dribbble.com/shots/6066729-MI-Travel-Blog-Card/attachments/1302457)
  - [Optimizilla](https://imagecompressor.com/) to optimize images.
 ## Project setup with npm
 ```
