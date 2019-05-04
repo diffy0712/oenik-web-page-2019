@@ -5,7 +5,7 @@
         b-col(cols="5").text-left
           h1.mb-4.font-weight-bold Mother earth hosts our travels
           p.mb-4.text-muted The state of Utah in the United Stated is home to lots of beautiful National Parks, & Bryce Canyon National Park ranks as three of the most magnificent & awe inspiring.
-          b-btn(size="lg", variant="primary") Learn More
+          b-btn(to="/about", size="lg", variant="primary") About
         b-col
           b-row(align-v="end")
             b-col.text-right.p-0.pr-2.pb-2(cols="6")
@@ -47,7 +47,7 @@
               width: 200,
               height: 200,
               first_multiplier: 0.9,
-              second_multiplier: 1.8,
+              second_multiplier: 1.6,
               third_multiplier: 1.1,
               fourth_multiplier: 0.7,
           },

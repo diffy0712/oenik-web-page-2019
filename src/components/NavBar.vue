@@ -13,12 +13,12 @@
                                 b-nav-item(href='#')
                                     font-awesome-icon(:icon="['fab', 'twitter']",  class="icon alt")
                         b-col
-                            b-navbar-brand.ml-auto.font-weight-bold(href='#') MITRAVEL
+                            b-navbar-brand.ml-auto.font-weight-bold(to='/') MITRAVEL
                         b-col
                             b-navbar-nav.ml-auto(align='right')
-                                b-nav-item(href='#')
-                                    | ABOUT ME
-                                b-nav-item(href='#')
+                                b-nav-item(to='about')
+                                    | ABOUT
+                                b-nav-item(to='blog')
                                     | BLOG
 
 </template>
