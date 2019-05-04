@@ -85,3 +85,5 @@ $ sudo docker exec -i -t oenik_webpage_2019_1_ep7d0o_ui_server bash
 ![About](./screenshots/about.png "About")
 ### Blog
 ![Blog](./screenshots/blog.png "Blog")
+### Post
+![Post](./screenshots/post.png "Post")
