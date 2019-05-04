@@ -4,13 +4,15 @@
     "title": "A guide to Forest Vacations",
     "img" : "blog_01",
     "message" : "Destinations",
-    "tag" : "Featured"
+    "tag" : "Featured",
+    "col" : 8
   },
   {
     "id" : 2,
     "title": "Travelling to USA",
     "img" : "blog_02",
-    "message" : "Destinations"
+    "message" : "Destinations",
+    "col" : 4
   },
   {
     "id" : 3,
@@ -18,20 +20,23 @@
     "img" : "blog_03",
     "message" : "Destinations",
     "tag" : "Popular",
-    "isVertical" : "true"
+    "isVertical" : "true",
+    "col" : 4
   },
   {
     "id" : 4,
     "title": "Maui By Air The Best Way Around The Island",
     "img" : "blog_04",
     "message" : "Destinations",
-    "isVertical" : "true"
+    "isVertical" : "true",
+    "col" : 4
   },
   {
     "id" : 5,
     "title": "Travelling To Barcelona",
     "img" : "blog_05",
     "message" : "Destinations",
-    "isVertical" : "true"
+    "isVertical" : "true",
+    "col" : 4
   }
 ]

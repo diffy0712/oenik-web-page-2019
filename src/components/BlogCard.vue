@@ -20,11 +20,6 @@
         @Prop() private imageSrc!: string;
         @Prop() private tag?: string;
         @Prop() private isVertical?: boolean;
-        public data() {
-            return {
-            };
-        }
-
     }
 </script>
 <style scoped lang="scss">
@@ -53,6 +48,12 @@
             h6, h3 {
                 color: #fff;
                 text-align: left;
+            }
+            a{
+                &:hover,
+                &:focus{
+                    text-decoration: none;
+                }
             }
         }
         .tag{
