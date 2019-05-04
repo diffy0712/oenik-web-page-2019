@@ -7,7 +7,7 @@
 ## About the Project
 This project is created for my Web Page Editing Subject at Obuda Univercity.
 ### Project Description
-Writer's Home is intended to be a frontend design with content fetched as json from file( but later can be replaced with a good REST API for real dynamic content).
+Writer's Home is intended to be a frontend design with content fetched as json from file(`/public/api/posts.json`)( but later can be replaced with a good REST API for real dynamic content).
 
 ### Tools and resources
  - The choice of frontend framework is [vue.js](https://vuejs.org/).
@@ -76,6 +76,11 @@ $ sudo docker exec -i -t oenik_webpage_2019_1_ep7d0o_ui_server bash
 ```
 **NOTE:** This is not tested yet. might need to configure docker a bit if not working.
 **NOTE:** You can still use local npm on the project since the whole folder is used by docker as volume to work with.
+
+## Todo:
+ - [ ] Make website responsive
+ - [ ] Create some api and db backend to load data from
+ - [ ] Add some animations
 
 ## Screenshots
 
