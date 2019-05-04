@@ -1,5 +1,5 @@
 <template lang="pug">
-#blog_card(v-bind:class="{isVertical: vertical}", :style="{'background-image': 'url(' + require('../assets/'+ imageSrc +'.jpg') + ')'}" )
+#blog_card(v-bind:class="{ vertical: isVertical }", :style="{'background-image': 'url(' + require('../assets/'+ imageSrc +'.jpg') + ')'}" )
     .viniet
     .bottom
         h6.font-weight-bold(v-if="msg") {{ msg }}
@@ -19,10 +19,9 @@
         @Prop() private title!: string;
         @Prop() private imageSrc!: string;
         @Prop() private tag?: string;
-        @Prop() private isVertical: boolean = false;
+        @Prop() private isVertical?: boolean;
         public data() {
             return {
-                vertical : this.isVertical
             };
         }
 
@@ -35,7 +34,7 @@
         background-size: cover;
         position: relative;
         border-radius: 1rem;
-        &.isVertical{
+        &.vertical{
             height: 450px;
         }
         .viniet{

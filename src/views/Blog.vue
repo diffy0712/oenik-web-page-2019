@@ -33,7 +33,8 @@
             FooterBar,
         },
     })
-    export default class Blog extends Vue {}
+    export default class Blog extends Vue
+    {}
 </script>
 <style scoped lang="scss">
     #blog{

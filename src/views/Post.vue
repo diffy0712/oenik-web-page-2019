@@ -1,6 +1,6 @@
 <template lang="pug">
     #post
-        User {{ $route.params.id }}
+        | {{ $route.params.id }}
 
 </template>
 
@@ -8,7 +8,7 @@
     import { Component, Prop, Vue } from 'vue-property-decorator';
 
     @Component
-    export default class BlogCard extends Vue {
+    export default class Post extends Vue {
         @Prop() private msg!: string;
         @Prop() private title!: string;
         @Prop() private imageSrc!: string;
@@ -17,7 +17,6 @@
             return {
             };
         }
-
     }
 </script>
 <style scoped lang="scss">
