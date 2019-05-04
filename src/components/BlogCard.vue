@@ -1,9 +1,9 @@
 <template lang="pug">
-#blog_card(v-bind:class="{isVertical: isVertical}", :style="{'background-image': 'url(' + require('../assets/'+ imageSrc +'.jpg') + ')'}" )
+#blog_card(v-bind:class="{isVertical: vertical}", :style="{'background-image': 'url(' + require('../assets/'+ imageSrc +'.jpg') + ')'}" )
     .viniet
     .bottom
         h6.font-weight-bold(v-if="msg") {{ msg }}
-        router-link(to="/")
+        router-link(:to="{ name: 'post', params: { id: id }}")
             h3.font-weight-bold {{ title }}
     span.tag(v-if="tag")
         b-btn(variant="primary") {{ tag }}
@@ -14,14 +14,15 @@
 
     @Component
     export default class BlogCard extends Vue {
+        @Prop() private id!: string;
         @Prop() private msg!: string;
         @Prop() private title!: string;
         @Prop() private imageSrc!: string;
         @Prop() private tag?: string;
-        @Prop() private vertical: boolean = false;
+        @Prop() private isVertical: boolean = false;
         public data() {
             return {
-                isVertical : this.vertical
+                vertical : this.isVertical
             };
         }
 

@@ -8,16 +8,16 @@
                         | Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when type specimen book.
             b-row.mb-5
                 b-col(cols="8")
-                    blog-card(title="A guide to Forest Vacations", imageSrc="blog_01", msg="Destinations", tag="Featured")
+                    blog-card(title="A guide to Forest Vacations", imageSrc="blog_01", msg="Destinations", tag="Featured", id="1")
                 b-col(cols="4")
-                    blog-card(title="Travelling to USA", imageSrc="blog_02", msg="Destinations",)
+                    blog-card(title="Travelling to USA", imageSrc="blog_02", msg="Destinations", id="2")
             b-row.mb-5
                 b-col(cols="4")
-                    blog-card(title="Party Jokes Startling but unnecessary", imageSrc="blog_03", msg="Destinations", tag="Starring", vertical="true")
+                    blog-card(title="Party Jokes Startling but unnecessary", imageSrc="blog_03", msg="Destinations", tag="Starring", isVertical="true", id="3")
                 b-col(cols="4")
-                    blog-card(title="Maui By Air The Best Way Around The Island", imageSrc="blog_04", msg="Destinations", vertical="true")
+                    blog-card(title="Maui By Air The Best Way Around The Island", imageSrc="blog_04", msg="Destinations", isVertical="true", id="4")
                 b-col(cols="4")
-                    blog-card(title="Travelling To Barcelona", imageSrc="blog_05", msg="Destinations", vertical="true")
+                    blog-card(title="Travelling To Barcelona", imageSrc="blog_05", msg="Destinations", isVertical="true", id="5")
 
 
 </template>

@@ -16,9 +16,9 @@
                             b-navbar-brand.ml-auto.font-weight-bold(to='/') MITRAVEL
                         b-col
                             b-navbar-nav.ml-auto(align='right')
-                                b-nav-item(to='about')
+                                b-nav-item(to='/about')
                                     | ABOUT
-                                b-nav-item(to='blog')
+                                b-nav-item(to='/blog')
                                     | BLOG
 
 </template>
