@@ -5,7 +5,7 @@
 [TOC]
 
 ## About the Project
-This project is created for my Web Page Editing Subject at Obuda Univercity.
+This project is created for my Web Page Editing Subject at Obuda University.
 ### Project Description
 Writer's Home is intended to be a frontend design with content fetched as json from file(`/public/api/posts.json`)( but later can be replaced with a good REST API for real dynamic content).
 
